@@ -1,0 +1,19 @@
+{
+  "name": "peak-form-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Peak Form Gym AI Onboarding Assistant",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "uuid": "^11.1.0"
+  }
+}
